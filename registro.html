@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>registro</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="bg-slate-800">
+        <div>
+            <div class="box-border h-1/3 w-1/8 p-1 
+                border-solid border border-black 
+                rounded-sm bg-black">
+                <div>
+                    <img src="https://cinecenter.com.bo/images/icons/logo.png" class="object-contain h-20 w-30">
+                    <div>
+                        <ul class="flex justify-center item-center text-white ">
+                            <li class="mr-6 text-2xl ">
+                                <a href="index.html">Inicio</a>
+                            </li>
+                            <li class="mr-6 text-2xl">
+                                <a href="cartelera-flex.html">Cartelera</a>
+                            </li>
+                            <div class=" text-black text-2xl mr-5">
+                                <select name="departamento" id="departamento bg-slate-200">
+                                    <option value="santa cruz">Santa cruz</option>
+                                    <option value="Cochabamba">Cochabamba</option>
+                                    <option value="Riberalta">Riberalta</option>
+                                    <option value="Quillacollo">Quillacollo</option>
+                                    <option value="La Paz">La Paz</option>
+                                    <option value="La Paz Vip">La Paz Vip</option>
+                                    <option value="Tarija">Tarija</option>
+                                </select>
+                            </div>
+                            <div class="">
+                                <button class="text-white mr-2 bg-red-500 hover:bg-red-700 font-py-2 px-4 rounded">
+                                    <a href="iniciar sesion.html">Iniciar sesion</a>
+                                </button>
+                                
+                                <button class="text-white bg-red-500 hover:bg-red-700 font-py-2 px-4 rounded">
+                                    <a href="registro.html">Registrarse</a>
+                                </button>
+                            </div>
+                        </ul>
+                       
+                    </div>
+                </div>
+            </div>
+            <h2 class="text-2xl text-white text-center">DATOS PERSONALES</h2>
+            <br>
+            <div class="flex flex-col justify-content:center align-items:center">
+                <div class="flex justify-center">
+                    <input type="text" placeholder="NOMBRE">
+                </div>
+                <div class="flex justify-center mt-2">
+                    <input type="text" placeholder="APELLIDO PATERNO" class="mr-2">
+                    <input type="text" placeholder="APELLIDO MATERNO" >
+                </div>
+                <div class="flex justify-center mt-2">
+                    <select class="mr-2" name="Tipo de documento">
+                        <option value="C.I.">Carnet de identidad</option>
+                        <option value="Nit">Nit</option>
+                        <option value="Otro">Otro</option>
+                    </select >
+                    <input type="text" placeholder="NÚMERO DOCUMENTO">
+                </div>
+                <div class="flex justify-center mt-2">
+                    <input type="text" placeholder="GENERO">
+                </div>
+                <div class="flex justify-center mt-2">
+                    <input type="text" placeholder="DIRECCION">
+                </div>    
+                <div class="flex justify-center mt-2">
+                    <input type="number" placeholder="TELÉFONO">
+                </div>
+                <div class="flex justify-center mt-2">
+                    <input type="date" placeholder="FECHA DE NACIMIENTO">
+                </div>
+                <div class="flex justify-center mt-2">
+                    <input type="email" placeholder="CORREO">
+                </div>
+                <div class="flex justify-center mt-2">
+                    <input type="password" placeholder="CONTRASEÑA">
+                </div>
+                <div class="flex justify-center mt-2">
+                    <input type="password" placeholder="CONFIRMAR CONTRASEÑA">
+                </div>
+                <button type= "submit">Registrate</button>
+            </div>
+        </div>
+    </body>
+</html>
